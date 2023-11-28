@@ -1,0 +1,49 @@
+Presentacion foro 1
+
+miniespecificacion que permita ingresar nombre, sueldo, sacar un promedio de sus sueldos y presentar por pantalla, el usuario debe decidir cuando detener el ciclo
+
+1  Inicio
+2  nombre, x[{a-z},{BS},{A-Z}] 
+3  sueldo, d[0-n] 
+4  opcion, x[{a-z},{BS},{A-Z}]
+5  suma, d[0-n]<-0
+6  promedio, d[0-n] 
+7  contador, d[0-n]<-0
+8  bandera, L<-true
+9  	
+10 Mientras bandera=true Hacer		
+11 	<<"Ingresar nombre de trabajador" //aldrin, juan, miguel
+12 	>>nombre	
+13 	<<"Ingrese el sueldo del trabajador"// 22
+14 	>>sueldo
+15.1	<<"Trabajador "+nombre+" con sueldo de "+sueldo
+15 	<<"Desea continuar? En caso no ingrese (no)"//y
+16 	>>opcion
+17 	Si opcion="no" Entonces
+18 		bandera=false
+19 	Fin si
+20      suma=suma+sueldo
+21 	contador=contador+1
+22 Fin mientras
+23 promedio=suma/contador
+24 <<"Promedio= "+promedio
+25 Fin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+resultado:
+Trabajador nombre con sueldo de sueldo
+.....
+Promedio de sueldos: promedio
